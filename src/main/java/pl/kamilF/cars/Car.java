@@ -14,8 +14,7 @@ public class Car {
         return cars;
     }
     public Car() {
-        cars.add(this);
-    }
+            }
 
 
     @Override
@@ -28,6 +27,7 @@ public class Car {
     }
 
     public Car(String model, String brand, String description) {
+        this();
         this.model = model;
         this.brand = brand;
         this.description = description;
